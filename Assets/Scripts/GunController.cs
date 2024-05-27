@@ -8,7 +8,8 @@ public class GunController : MonoBehaviour
     private float vertical;
     private float sensytivity = 2;
     
-    // Update is called once per frame
+    // Update is called once per frame tim_31
+
     void Update()
     {
         horizontal = Input.GetAxis("Mouse X") * sensytivity;
